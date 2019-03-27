@@ -1,0 +1,26 @@
+@import './core/core.css';
+/* Color of the title (Hack Belgium for kids) */
+.site-title{
+    color: #16BEFF;
+}
+
+/* Background image */
+.header{
+    background-image: url('./images/bg-01.png');
+}
+
+/* color of the blue bar under the image */
+.date-container{
+    background-color: #16BEFF;
+}
+
+/* Color of the border of the message box */
+.message{
+    border-left: 5px solid #16BEFF;
+}
+
+/* Backgground and text color on the on bubbles */
+.status--on{
+    background-color: #16BEFF;
+    color: #FFFFFF;
+}
