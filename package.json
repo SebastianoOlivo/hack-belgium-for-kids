@@ -12,18 +12,20 @@
   "dependencies": {
     "express": "^4.16.4",
     "johnny-five": "^1.0.0",
-    "nodemon": "^1.18.10",
-    "socket.io": "^2.2.0",
-    "socket.io-client": "^2.2.0",
-    "startbootstrap-sb-admin-2": "^4.0.2"
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "babel-loader": "^8.0.5",
-    "reload": "^2.4.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.2.1"
+    "reload": "^3.4.3",
+    "webpack": "^5.109.2",
+    "webpack-cli": "^7.2.2",
+    "webpack-dev-server": "^6.0.0"
+  },
+  "overrides": {
+    "ws": "^8.21.1"
   }
 }
